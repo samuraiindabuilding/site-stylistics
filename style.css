@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -44,4 +46,145 @@ body {
     100% {
         background-color: #6924a1;
     }
+}
+
+
+body {
+    background-color: rgb(255, 252, 252);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: rgb(165, 24, 24);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: gray;
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.social {
+    background: #ffe4b5;
+    padding: 15px;
+    border: 5px solid rgb(158, 144, 144);
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+.box-model > div {
+    float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+    border: 4px solid blue;
+    box-sizing: border-box;
+}
+
+.bg-yellow {
+    background: #f8eba9;
+}
+
+.bg-green {
+    background: #f8eba9;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 5px solid rgb(158, 144, 144);
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: rgb(50, 224, 224);
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group {
+    margin-right: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
