@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
 
+
+
 }
 .solid {
     width: 100%;
@@ -50,10 +52,15 @@ body {
 
 
 body {
-    background-color: rgb(255, 252, 252);
-    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
+    border-start-end-radius: 30px;
+    margin: 0;
+    padding: 0;
+    background-image: url(pages/backgroun4K.jpg);
+    background-size: auto;
 }
 
 a {
@@ -98,6 +105,7 @@ a:visited {
 .container {
     max-width: 750px;
     margin: auto;
+    background-color: #ffffff;
 }
 
 .box-model > div {
